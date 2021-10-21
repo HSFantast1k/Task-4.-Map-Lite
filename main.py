@@ -28,10 +28,6 @@ def check(i, j):
             bottom_count += 1
     if right_count == bottom_count:
         square_count += 1
-    for row in map:
-        for elem in row:
-            print(elem, end=' ')
-        print()
 
 
 for i in range(N):
